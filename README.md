@@ -44,15 +44,15 @@ USB: Basically OK, except the second rear USB port.
 
 --- **not functional**.
 
-The audio codec is extracted as [codecalc662_0](./codealc662_0).
+The audio codec is extracted as [codecalc662_0](./codecalc662_0).
 
 ## Bios setup
 
 ***Disable**
 1. Fast Boot
 2. Secure Boot
-3. VT-d
-4. CSM
+3. CSM
+4. VT-d
 5. Intel SGX
 6. Intel Platform Trust
 7. CFG
