@@ -15,12 +15,19 @@
 My itx machine:
 
 CPU: Intel i5 10500    --- ok
+
 Board: onda H410sd4    --- ok
+
 Graphic: UHD 630       --- ok
+
 NIC: Realtek RTL8168   --- ok
+
 Audio: ALC 662 Rev 3   --- not functional, layout id 5,7,11 had been tested. As an alternative, I'm using an externel USB sound card.
+
 Wireless: No
+
 USB: Basically OK, except the second rear USB port.
+
 Sleep/wakeup           --- not functional.
 
 The audio codec is extracted as [codecalc662_0].
