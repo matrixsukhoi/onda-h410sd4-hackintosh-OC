@@ -55,6 +55,7 @@ The audio codec is extracted as [codecalc662_0](./codecalc662_0).
 onda H410sd4 uses AMI BIOS.
 
 ***Disable***
+
 1. Fast Boot
 2. Secure Boot
 3. CSM
@@ -70,6 +71,7 @@ onda H410sd4 uses AMI BIOS.
 3. Hyper-Threading
 4. EHCI/XHCI Hand-off
 5. DVMT Pre-Allocated(iGPU Memory): 64MB
+6. DVMT Max-Allocated(iGPU Memory): MAX
 
 ## Possible Problem
 
