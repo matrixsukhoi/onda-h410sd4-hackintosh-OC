@@ -50,7 +50,7 @@ The audio codec is extracted as [codecalc662_0](./codecalc662_0).
 
 onda H410sd4 uses AMI BIOS.
 
-***Disable**
+***Disable***
 1. Fast Boot
 2. Secure Boot
 3. CSM
