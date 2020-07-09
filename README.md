@@ -2,13 +2,13 @@
 
 10.15.5 10500 UHD630 RTL8168
 
-参考了两位大佬的acpi配置与config.plist
+主要参考了两位大佬的acpi配置与config.plist以及opencore guide
+
+Based on two dalao's works and opencore guide.
 
 [gakaki/ASRock-H410M-ITX-OSX-Hackintosh](https://github.com/gakaki/ASRock-H410M-ITX-OSX-Hackintosh)
 
 [Poilk/H410M-ITX-ac_hackintosh_OC](https://github.com/Poilk/H410M-ITX-ac_hackintosh_OC)
-
-以及
 
 [opencore guide](https://dortania.github.io/OpenCore-Desktop-Guide/config.plist/comet-lake.html)
 
@@ -48,6 +48,8 @@ The audio codec is extracted as [codecalc662_0](./codecalc662_0).
 
 ## Bios setup
 
+onda H410sd4 uses AMI BIOS.
+
 ***Disable**
 1. Fast Boot
 2. Secure Boot
@@ -55,7 +57,7 @@ The audio codec is extracted as [codecalc662_0](./codecalc662_0).
 4. VT-d
 5. Intel SGX
 6. Intel Platform Trust
-7. CFG
+7. CFG-Lock
 
 ***Enable***
 
@@ -72,3 +74,5 @@ The audio codec is extracted as [codecalc662_0](./codecalc662_0).
 ## changelog
 
 ...
+
+~~要不是家里小姐姐喜欢macos的界面，我才不想整辣鸡苹果呢。Fedora不香吗?~~
