@@ -12,25 +12,39 @@
 
 [opencore guide](https://dortania.github.io/OpenCore-Desktop-Guide/config.plist/comet-lake.html)
 
+## Machine
+
 My itx machine:
 
-CPU: Intel i5 10500    --- ok
+CPU: Intel i5 10500
 
-Board: onda H410sd4    --- ok
+--- ok
 
-Graphic: UHD 630       --- ok
+Board: onda H410sd4
 
-NIC: Realtek RTL8168   --- ok
+--- ok
 
-Audio: ALC 662 Rev 3   --- not functional, layout id 5,7,11 had been tested. As an alternative, I'm using an externel USB sound card.
+Graphic: UHD 630
 
-Wireless: No
+--- ok
+
+NIC: Realtek RTL8168
+
+--- ok
+
+**Audio: ALC 662 Rev 3**
+
+--- **not functional**, layout id 5,7,11 had been tested. As an alternative, I'm using an externel USB sound card.
+
+**Wireless: No**
 
 USB: Basically OK, except the second rear USB port.
 
-Sleep/wakeup           --- not functional.
+**Sleep/wakeup**
 
-The audio codec is extracted as [codecalc662_0].
+--- **not functional**.
+
+The audio codec is extracted as [codecalc662_0](./codealc662_0).
 
 ## Bios setup
 
