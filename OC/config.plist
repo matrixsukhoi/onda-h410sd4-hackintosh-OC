@@ -203,12 +203,28 @@
 			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
 			<dict>
 				<key>layout-id</key>
-				<data>BQAAAA==</data>
+				<data>EAAAAA==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>AACbPg==</data>
+				<key>framebuffer-patch-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con0-enable</key>
+				<data>AAAAAA==</data>
+				<key>framebuffer-con0-alldata</key>
+				<data>AQAJAAAIAADHAwAA</data>
+				<key>device-id</key>
+				<data>mz4AAA==</data>
+				<key>framebuffer-con1-enable</key>
+				<data>AAAAAA==</data>
+				<key>framebuffer-con1-alldata</key>
+				<data>AgAKAAAIAADHAwAA</data>
+				<key>framebuffer-con2-enable</key>
+				<data>AAAAAA==</data>
+				<key>framebuffer-con2-alldata</key>
+				<data>AwQIAAAIAADHAwAA</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -604,7 +620,7 @@
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
-			<integer>67</integer>
+			<integer>3</integer>
 		</dict>
 		<key>Entries</key>
 		<array>
@@ -681,7 +697,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 alcid=5 -cdfon</string>
+				<string>-v keepsyms=1 debug=0x100 alcid=5 igfxonln=1</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>

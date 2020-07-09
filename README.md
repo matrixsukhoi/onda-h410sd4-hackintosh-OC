@@ -24,7 +24,7 @@ Board: onda H410sd4
 
 --- ok
 
-Graphic: UHD 630
+Graphic: Intel UHD 630
 
 --- ok
 
@@ -38,13 +38,17 @@ NIC: Realtek RTL8168
 
 **Wireless: No**
 
-USB: Basically OK, except the second rear USB port.
+USB Ports:
 
-**Sleep/wakeup**
+--- basically ok, except the second rear USB port.
 
---- **not functional**.
+Sleep/wakeup:
 
-The audio codec is extracted as [codecalc662_0](./codecalc662_0).
+--- ok
+
+The audio codec is extracted as [codecalc662_0](./codecalc662_0). 
+
+**I'm not sure how to make the on-board audio work correctly. I would appreciate it if someone can help.**
 
 ## Bios setup
 
@@ -69,10 +73,12 @@ onda H410sd4 uses AMI BIOS.
 
 ## Possible Problem
 
-1. Hdmi externel screen wrong color space (pink screen): Use [one-key-hidpi](https://github.com/xzhih/one-key-hidpi) inject the EDID
+1. IOUSB deferred: do not insert the USB-stick on the second rear USB port.
+2. Hdmi externel screen wrong color space (pink screen): To fix it, use [one-key-hidpi](https://github.com/xzhih/one-key-hidpi) inject EDID.
 
 ## changelog
 
+- support sleep/wakeup by adding *igfxonln=1* in boot-args
 ...
 
 ~~要不是家里小姐姐喜欢macos的界面，我才不想整辣鸡苹果呢。Fedora不香吗?~~
