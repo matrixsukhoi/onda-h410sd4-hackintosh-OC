@@ -73,7 +73,7 @@ onda H410sd4 uses AMI BIOS.
 
 ## Possible Problem
 
-1. IOUSB deferred: do not insert the USB-stick on the second rear USB port.
+1. IOUSB deferred: do not insert the USB-stick on the second rear USB port, just try another.
 2. Hdmi externel screen wrong color space (pink screen): To fix it, use [one-key-hidpi](https://github.com/xzhih/one-key-hidpi) inject EDID.
 
 ## changelog
